@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
-import Formulas as fr
+import formulas as fr
 
 # Instancia o objeto
 janela = Tk()
