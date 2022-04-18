@@ -1,4 +1,4 @@
-# Conversor_de_Temperatura
+# Conversor_de_TemperaturaS
 Meu primeiro programa utilizando a biblioteca de interface gráfica Tkinter em Python.
 
 A ideia do programa é que ele realiza a conversão entre escalas de temperatura (Celsius, Fahrenheit e Kelvin).
