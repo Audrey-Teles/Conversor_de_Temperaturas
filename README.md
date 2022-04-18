@@ -4,6 +4,8 @@ Meu primeiro programa utilizando a biblioteca de interface gráfica Tkinter em P
 A ideia do programa é que ele realiza a conversão entre escalas de temperatura (Celsius, Fahrenheit e Kelvin).
 
 
+
+
 --------------------------------------- Como foi a minha experiência? ----------------------------------------------
 
 Foi bem mais trabalhoso do que eu esperava, montar o design das coisas, mas nada fora do comum, 
