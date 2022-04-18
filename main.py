@@ -29,32 +29,46 @@ cbEscalas2 = ttk.Combobox(janela, state="readonly", values=["Celsius", "Fahrenhe
 cbEscalas2.pack()
 
 
+# Se as opções para a combobox forem selecionadas retorna true
 def foiSelecionado():
     if cbEscalas1.get() == "" or cbEscalas2.get() == "":
+        # Mostra uma mensagem de erro
         messagebox.showerror("Erro", "Selecione uma opção para os dois campos")
+        return False
+    elif cbEscalas1.get() == cbEscalas2.get():
+        # Mostra uma mensagem de erro
+        messagebox.showerror("Erro", "Selecione opções diferentes para os dois campos")
         return False
     else:
         return True
 
 
+# Executa as ações do click no botão
 def btnConverterAction():
     if foiSelecionado():
+        # Ativa a edição para o campo de saída
         txtConvertido.configure(state="normal")
+        txtConvertido.delete(1.0, END)
+        # Condições para execução das conversões
         if cbEscalas1.get() == "Celsius":
             if cbEscalas2.get() == "Fahrenheit":
                 txtConvertido.insert(1.0, fr.celsiusFahrenheit(txtEntradaTemperatura.get("1.0", END)))
             else:
                 txtConvertido.insert(1.0, fr.celsiusKelvin(txtEntradaTemperatura.get("1.0", END)))
+
         elif cbEscalas1.get() == "Fahrenheit":
             if cbEscalas2.get() == "Celsius":
                 txtConvertido.insert(1.0, fr.fahrenheitCelsius(txtEntradaTemperatura.get("1.0", END)))
             else:
                 txtConvertido.insert(1.0, fr.fahrenheitKelvin(txtEntradaTemperatura.get("1.0", END)))
+
         elif cbEscalas1.get() == "Kelvin":
             if cbEscalas2.get() == "Celsius":
                 txtConvertido.insert(1.0, fr.kelvinCelsius(txtEntradaTemperatura.get("1.0", END)))
             else:
                 txtConvertido.insert(1.0, fr.kelvinFahrenheit(txtEntradaTemperatura.get("1.0", END)))
+
+        # Desativa a edição do campo
         txtConvertido.configure(state="disabled")
 
 
@@ -64,7 +78,6 @@ lblEntradaTemperatura.pack()
 
 # Campo de texto para inserção da temperatura a ser convertida
 txtEntradaTemperatura = Text(height=1, width=17)
-txtEntradaTemperatura.insert(1.0, "0")
 txtEntradaTemperatura.pack()
 
 # Define as características de um botão e sua posição na janela
@@ -77,7 +90,6 @@ lblConvertida.pack()
 
 # Campo de texto para mostrar a temperatura já convertida
 txtConvertido = Text(height=1, width=17)
-# txtConvertido.configure(state="disable")
 txtConvertido.pack()
 
 # Espaço em branco

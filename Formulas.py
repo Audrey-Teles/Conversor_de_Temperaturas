@@ -32,6 +32,7 @@ def fahrenheitKelvin(f):
     except:
         messagebox.showerror("Erro", "Informe um valor válido")
 
+
 def kelvinFahrenheit(k):
     try:
         f = ((float(k) - 273) * 9/5) + 32
