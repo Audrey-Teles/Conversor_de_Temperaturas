@@ -11,7 +11,7 @@ O programa realiza a conversão entre escalas de temperatura (Celsius, Fahrenhei
 ![GUI](https://user-images.githubusercontent.com/68817384/163742248-63bee7bf-c6ae-4f25-8c05-b5f96c3ddea7.png)
 
     
-<p>Faça download dos arquivos clicando <a href="https://github.com/Audrey-Teles/Conversor-de-Temperaturas/raw/master/Conversor%20de%20Temperaturas.exe">aqui</a>.    
+<p>Faça download dos arquivos clicando <a href="https://github.com/Audrey-Teles/Conversor-de-Temperaturas/archive/refs/heads/master.zip">aqui</a>.    
     
 ## Créditos
 <ul>
