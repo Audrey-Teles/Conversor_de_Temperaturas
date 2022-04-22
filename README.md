@@ -10,4 +10,4 @@ O programa realiza a conversão entre escalas de temperatura (Celsius, Fahrenhei
 
 <hr>
  
-Para mais detalhes acesse a <a href="https://github.com/Audrey-Teles/Conversor-de-Temperaturas/wiki"> wiki desse repositório </a>.
+Para mais detalhes acesse a <a href="https://github.com/Audrey-Teles/Conversor-de-Temperaturas/wiki/P%C3%A1gina-Inicial"> wiki desse repositório </a>.
