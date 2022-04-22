@@ -9,6 +9,9 @@ janela = Tk()
 # Define o título da janela
 janela.title("Conversor")
 
+# Define ícone da janela
+janela.iconbitmap('temperature.ico')
+
 # Espaço em branco
 Label(janela, text="").pack()
 
