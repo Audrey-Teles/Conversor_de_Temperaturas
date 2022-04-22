@@ -4,11 +4,12 @@ O programa realiza a conversão entre escalas de temperatura (Celsius, Fahrenhei
 
 <hr>
 
-### Essa é a tela final do programa, até então.
+<p>Essa é a tela final do programa, até então.
 
-<<<<<<< Updated upstream
 ![GUI](https://user-images.githubusercontent.com/68817384/163742248-63bee7bf-c6ae-4f25-8c05-b5f96c3ddea7.png)
-=======
+
+## Como foi a minha experiência?
+    
 <p>Foi bem mais trabalhoso do que eu esperava, montar o design das coisas, mas nada fora do comum, <br> se você já mexeu 
 com interfaces em Java, seja no Netbeans ou em outra IDE, já vai ter uma boa noção do que fazer. 
 
@@ -17,4 +18,3 @@ com interfaces em Java, seja no Netbeans ou em outra IDE, já vai ter uma boa no
 <ul>
     <li><a href="https://www.flaticon.com/free-icons/temperature" title="temperature icons">Temperature icons created by kerismaker - Flaticon</a></li>
 </ul>
->>>>>>> Stashed changes
