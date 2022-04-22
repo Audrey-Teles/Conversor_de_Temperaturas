@@ -2,9 +2,8 @@
 Meu primeiro programa utilizando a biblioteca de interface gráfica Tkinter em Python.<br>
 O programa realiza a conversão entre escalas de temperatura (Celsius, Fahrenheit e Kelvin).
 
+<hr>
 
--------------------------------------------------------------------------------------------------------------------
-<h2> Como foi a minha experiência? </h2>
+### Esta é a tela final do programa, até então.
 
-<p>Foi bem mais trabalhoso do que eu esperava, montar o design das coisas, mas nada fora do comum, <br> se você já mexeu 
-com interfaces em Java, seja no Netbeans ou em outra IDE, já vai ter uma boa noção do que fazer. 
+![GUI](https://user-images.githubusercontent.com/68817384/163742248-63bee7bf-c6ae-4f25-8c05-b5f96c3ddea7.png)
